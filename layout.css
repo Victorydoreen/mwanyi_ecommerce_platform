@@ -1,0 +1,225 @@
+
+.app-container{
+    color: black;
+}
+/* Add these styles to your layout.css or create a separate CSS file for it */
+.dropdown-icon {
+    margin-left: 5px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    justify-content: space-between;
+    width: 100%;
+    
+    /* justify-content:space-around ; */
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content.open {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.2s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .coffee-info-dropdown{
+    margin-top: 17px;
+    margin-left: 60px;
+  }
+  /* nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+  } */
+  
+  .auth{
+    display: flex;
+    justify-content: space-evenly;
+   
+  } 
+  .first {
+    background-color: #29755a;
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-left: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    
+  }
+  .logname{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .authl {
+    background-color:  rgb(148, 242, 176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .logo{
+    margin-right: 200px;
+  }
+  .auths{
+    
+      background-color:  rgb(148, 242, 176);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      width: 100px;
+      height: 50px;
+      border-radius: 10px;
+      font-size: 17px;
+      margin-bottom: 20px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      margin-left: 100px;
+  }
+  
+  .ll, .ls {
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+  }
+
+  .logof{
+    background-color: white;
+    width: 200px;
+    /* max-width: 100%; */
+    height: auto;
+   margin-right: 400px;
+   
+  }
+  
+.linkedin img {
+  display: flex;
+  flex-direction: column;
+  width: 30px; /* Set the width to your desired size */
+  height: 30px; /* Set the height to your desired size */
+}
+
+/* Style for Twitter icon */
+.twitter img {
+  display: flex;
+  flex-direction: column;
+  width: 30px; /* Set the width to your desired size */
+  height: 30px; /* Set the height to your desired size */
+}
+
+/* Style for GitHub icon */
+.github img {
+  display: flex;
+  flex-direction: column;
+  width: 70px; /* Set the width to your desired size */
+  height: 40px; /* Set the height to your desired size */
+  margin-right: 20px;
+}
+/* Style for LinkedIn icon */
+.linkedin a {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text horizontally */
+  text-decoration: none; /* Remove underlines from links */
+  color: #000; /* Set the color of the text */
+}
+
+.icons{
+  display: flex;
+}
+
+/* Style for Twitter icon */
+.twitter a {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text horizontally */
+  text-decoration: none; /* Remove underlines from links */
+  color: #000; /* Set the color of the text */
+}
+
+/* Style for GitHub icon */
+.github a {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text horizontally */
+  text-decoration: none; /* Remove underlines from links */
+  color: #000; /* Set the color of the text */
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy{
+  margin-top: 30px;
+  color: rgb(8, 8, 8);
+}
+
+
+.out {
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+  border-radius: 50%;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: 800;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+}
+
+.out span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-right: 45px;
+  
+}
+
+ 

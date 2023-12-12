@@ -1,0 +1,55 @@
+.home{
+    width: 700px;
+    height: 500px;
+    /* margin-left: 100px; */
+    margin-right: 300px;
+}
+.homeb{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headim{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+
+}
+h1{
+    font-size: 50px;
+    color: rgb(15, 96, 64);
+}
+h4{
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+}
+.acc{
+    background-color:rgb(15, 96, 64) ;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.seed{
+    margin-bottom: 60px;
+}
+
+.types{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 30px;
+    color: rgb(15, 96, 64); 
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.imgtypes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgtypes img{
+    width: 300px;
+    height: 300px;
+}

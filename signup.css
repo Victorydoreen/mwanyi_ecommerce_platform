@@ -1,0 +1,167 @@
+
+
+  .spage{
+    margin-left: 60px;
+
+  }
+  
+  .signup-form{
+
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color:rgb(251, 252, 251);
+    padding: 30px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section {
+    background-color: #ffffff;
+    width: 40%; 
+    margin: 0 auto;
+    padding: 20px;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    /* margin-top: 10px; */
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    /* margin-left: 60px; */
+  }
+  
+  .input-field{
+    width: 500px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #050505;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 60px; 
+    background-color: #ebe9e9;
+    border-radius: 20px; 
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #050505;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+    /* margin-left: 60px; */
+  }
+  select{
+    width: 560px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #050505;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 60px; 
+    background-color: #ebe9e9;
+    border-radius: 20px;
+  }
+  .radio{
+    margin-left: 60px;
+  }
+  .sb {
+    background-color: rgb(193, 244, 208);
+    color:black;
+    padding: 10px 15px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 170px;
+    border: 1px solid #a3a2a2;
+    /* border-radius: 20px; */
+  }
+
+  .signwords{
+    margin-top: 20px;
+    margin-left: 160px;
+  }
+  .login{
+    color: rgb(106, 200, 134);
+  }
+  .phs{
+    color: rgb(80, 80, 80);
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    width: 50px;
+    margin-left: 60px;
+   
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  /* Sign In link styling */
+  .line {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #f2f3f2;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for validation messages */
+  input[type="text"]:hover + .error-message,
+  input[type="password"]:hover + .error-message,
+  input[type="text"]:hover + .success-message,
+  input[type="password"]:hover + .success-message,
+  input[type="email"]:hover + .error-message,
+  input[type="email"]:hover + .success-message {
+    display: inline-block;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    .section {
+      width: 90%; /* Adjust the width as needed */
+      padding: 10px;
+    }
+  
+    button {
+      margin-top: 15px;
+    }
+  }
+  
+  .leaf{
+    filter: drop-shadow(8px 8px 15px rgba(0, 0, 0, 0.5));
+}
+.login_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 150px;
+}
+ 

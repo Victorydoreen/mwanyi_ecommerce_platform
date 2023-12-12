@@ -1,0 +1,72 @@
+ .about-b{
+    margin-left: 220px;
+    padding: 20px;
+    background-color: white;
+    width: 70%;
+    height: 80%;
+}
+.about-p{
+    padding: 50px;
+    font-size: 20px;
+}
+.image-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.joy{
+    width: 300px;
+    height: 700px;
+
+}
+ .victory{
+  width: 600px;
+  height: 3000px;
+
+} 
+
+.image-container{
+    background-color:  rgb(192, 194, 194);
+    width: 240px;
+    height: 370px;
+}
+.body{
+    background-color: rgb(215, 217, 217);
+    padding: 40px;
+}
+
+  
+  
+  
+  .image-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .joy {
+    width: 80%; 
+    height: 60%;;
+    border-radius: 50px; 
+  }
+  .victory {
+    width: 80%; 
+    height: 60%;
+    border-radius: 50px; }
+  
+  .name {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+  
+  .title {
+    color: #333; 
+    margin-top: 3px;
+    margin-right: 20px;
+  }
+   
