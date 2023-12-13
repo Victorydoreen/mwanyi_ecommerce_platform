@@ -1,0 +1,78 @@
+Software Requirements Specifications for Mwanyi ecommerce platform
+
+Introduction:
+The purpose of this document is to provide a detailed software requirements specification for Mwanyi ecommerce platform. 
+The system will allow farmers to get buyers for their coffee.
+
+Functional Requirements:
+1. User Registration:
+The system should allow users to register and create an account. Users will need to provide their name, email address, phone number and password.
+
+2. User Login:
+The system should allow registered users to log in using their email address and password.
+
+3. Menu Display:
+The system should display menus for selected catergories of cofee products and coffee products pictures.
+
+4. Ordering:
+The system should allow users to add items to their cart and place an order.
+
+
+Technical Requirements:
+1. Programming Language:
+The system should be developed using a web-based programming language of React js.
+
+2. Database Management:
+The system should use a relational database management system (RDBMS) to store user data, orders, and coffee information.
+
+
+Conclusion:
+This software requirements specification outlines the functional and technical requirements for Mwanyi ecommerce platform.
+ The system will provide security to the users.
+
+
+Software Design Description of Mwanyi ecommerce platform.
+
+It is an ecommerce platform connecting coffee farmers to markets(Potential buyers) system which deals with
+different information on coffee, designed to provide farmers and buyers  with the ability to trade.
+It aims at providing a good experience for both farmers and the buyers while ensuring that the system is secure.
+
+Mwanyi ecommerce platform is built using different independent services each with a specific function;
+
+Database: The system uses a relational database to store data and consisting of different tables;
+
+authentication: Helps in logging in and logging out a user
+Users: stores user information, including usernames, passwords and contact information.
+Settings: stores the restuarant information, including name, location and working hours.
+Orders: stores informationabout customer orders, including the ordered items.
+Addresses: stores the customer address details, including the name of the place.
+Categories: stores the coffee categories that can be found on the platform 
+Districts: stores the information of the farmers and buyers' district, including the name of the district.
+
+Products: stores the kinds of coffee products that each category contains.
+
+User Interface:
+The web application has a user-friendly interface that is easy to navigate  through and it includes different sections;
+Home: the landing page displays popular foods provided by the restaurant and the services provided.
+Contact: this section gives clear description on how to contact the experts of restaurant.
+SignUp: gives details on how a client can register to access different services of the restaurant.
+Login: identifies the old client by the initial credentials that were provided.
+
+Security:
+The system protects user information improving its security by using security measures;
+HTTPS encryption for all data in transit.
+User authentication using JWT tokens.
+Input validation and sanitization to prevent SQL injection attacks.
+Use of password hashing to protect user passwords.
+
+Conclusion:
+Flash Bites Eatery online food delivery system is designed to provide customers with a good experience while ensuring that the system is secure. The system consists of several independent services, each responsible for a specific function, and will be deployed on separate servers to ensure fault tolerance, scalability, and maintainability.
+
+Status codes
+400 =>bad request; a user misses required parameters, invalid data types.
+401 => unauthorised; a user is not authenticated.
+404 => not found; a user puts a request does not exist in the server.
+409 => conflict; a user puts a resources that already exists.
+200 => ok; request is successful.
+201 => ok; a resource has been successful created.
+
